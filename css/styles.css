@@ -93,15 +93,12 @@ button {
 .description-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.12;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
-.description-list {
-}
-.description-list-item {
-}
+
 .description-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -117,6 +114,29 @@ button {
   color: #434455;
 }
 /* #endregion description */
+
+/* #region our team */
+.team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-img {
+  background-color: url("path_to_image");
+}
+.team-item-title {
+  text-align: center;
+}
+.team-item-text {
+  text-align: center;
+}
+/* #endregion our team */
 
 /* #region footer */
 .page-footer {
