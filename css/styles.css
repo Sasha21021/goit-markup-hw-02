@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
 }
@@ -126,6 +126,12 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.team-list-item {
+  background-color: #ffffff;
+  text-transform: capitalize;
 }
 
 .team-item-title {
@@ -154,6 +160,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-item-title {
   font-weight: 500;
